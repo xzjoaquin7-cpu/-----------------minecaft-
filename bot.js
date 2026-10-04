@@ -5,7 +5,7 @@ function createBot() {
         host: 'PATROLO.aternos.me:43436', // <--- REEMPLAZA ESTO POR LA IP DE TU SERVER
         port: 43436,                // Puerto predeterminado de Minecraft
         username: 'PATROLO:SERVER',    // Nombre genérico del bot/NPC dentro del juego
-        version: false              // Autodetecta la versión exacta del servidor (1.8 a 1.21+)
+        version: true              // Autodetecta la versión exacta del servidor (1.8 a 1.21+)
     });
 
     bot.on('spawn', () => {
